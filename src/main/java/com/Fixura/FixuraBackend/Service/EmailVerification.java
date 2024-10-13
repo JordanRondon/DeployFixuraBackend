@@ -40,7 +40,7 @@ public class EmailVerification {
   }
 
   private String generateConfirmationLink(String path, String token) {
-    return "http://localhost:4200/"+path+"?token=" + token;
+    return "https://fixura-project.netlify.app/"+path+"?token=" + token;
   }
 
   private String loadEmailTemplate(String nombre, String link, String template){
