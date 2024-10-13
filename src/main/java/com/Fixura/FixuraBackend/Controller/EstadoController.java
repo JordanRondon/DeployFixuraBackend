@@ -17,7 +17,7 @@ import com.Fixura.FixuraBackend.Service.EstadoService;
 
 @RestController
 @RequestMapping("/api/estado")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://fixura-project.netlify.app")
 public class EstadoController {
 
     @Autowired

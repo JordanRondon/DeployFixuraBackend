@@ -9,7 +9,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") // Permitir todas las rutas
-                .allowedOrigins("http://localhost:4200") // Permitir el origen de la aplicación Frontend
+                .allowedOrigins("https://fixura-project.netlify.app") // Permitir el origen de la aplicación Frontend
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Métodos permitidos
                 .allowedHeaders("*") // Permitir todos los encabezados
                 .allowCredentials(true); // Permitir cookies y credenciales

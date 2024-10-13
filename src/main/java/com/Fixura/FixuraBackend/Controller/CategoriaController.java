@@ -17,7 +17,7 @@ import com.Fixura.FixuraBackend.Service.CategoriaService;
 
 @RestController
 @RequestMapping("/api/categoria")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://fixura-project.netlify.app")
 public class CategoriaController {
     
     @Autowired

@@ -28,7 +28,7 @@ import java.text.ParseException;
 
 @RestController
 @RequestMapping("/api/incidente")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://fixura-project.netlify.app")
 public class IncidenteController {
 
     @Autowired
