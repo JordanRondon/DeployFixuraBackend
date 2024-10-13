@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @RestController
 @RequestMapping("/api/v1/departamento")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://fixura-project.netlify.app")
 public class DepartamentoController {
   
   @Autowired

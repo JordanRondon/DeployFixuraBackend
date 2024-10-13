@@ -17,7 +17,7 @@ import com.Fixura.FixuraBackend.Service.IncidenciaLikeService;
 
 @RestController
 @RequestMapping("/api/incidenteLike")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://fixura-project.netlify.app")
 public class IncidenciaLikeController {
 
     @Autowired
